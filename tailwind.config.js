@@ -5,10 +5,8 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      fontFamily:{
-        burtons: "burtons",
-      }
+    fontSize: {
+      '9xl' : '10rem',
     },
   },
   plugins: [],

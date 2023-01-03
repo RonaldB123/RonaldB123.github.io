@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import { MdOutlineEmail } from 'react-icons/fa';
-
+import { AiOutlineMail, AiFillLinkedin } from 'react-icons/ai';
 
 export default function Home() {
   return (
@@ -14,10 +13,14 @@ export default function Home() {
       </Head>
       <main className="bg-white px-10 ">
         <section className="min-h-screen">
-          <div className="text-left ">
-            <h2 className="text-9xl pt-32 ">Ronald Beck</h2>
-            <p><MdOutlineEmail /></p>
-            <h3 className="text-2xl pt-10 pl-6 text-gray-600">Aspiring Software Developer</h3>
+          <div className="text-left">
+          <div className="flex pt-32 ">
+            <h2 className="text-9xl">Ronald Beck</h2>
+            <div className="float-right"><a href="mailto:ronaldbeck@hotmail.co.uk"><AiOutlineMail size={80}/></a></div>
+            <div className="float-right"><a href="https://www.linkedin.com/in/ronald-beck-03104a213/" target="_blank"><AiFillLinkedin size={80}/></a></div>
+            {/* <h3 className="text-2xl  text-gray-600">Aspiring Software Developer</h3>
+            <h3 className="text-2xl  text-gray-600">Based in London</h3> */}
+          </div> 
             {/* <p className="text-md py-5 leading-8 text-gray-600">A passionate and highly motivated aspiring software Developer
               looking for a software development apprenticeship.
             </p> */}
