@@ -11,37 +11,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white px-10 ">
-        <section className="min-h-screen">
-          <div className="text-left">
-          <div className="flex pt-32 ">
+      <main className="bg-white ">
+        <section className="border-2 border-black">
+          <div className="inline-flex">
             <h2 className="text-9xl">Ronald Beck</h2>
-            <div className="float-right"><a href="mailto:ronaldbeck@hotmail.co.uk"><AiOutlineMail size={80}/></a></div>
-            <div className="float-right"><a href="https://www.linkedin.com/in/ronald-beck-03104a213/" target="_blank"><AiFillLinkedin size={80}/></a></div>
-            {/* <h3 className="text-2xl  text-gray-600">Aspiring Software Developer</h3>
-            <h3 className="text-2xl  text-gray-600">Based in London</h3> */}
+            <div className=""><a href="mailto:ronaldbeck@hotmail.co.uk"><AiOutlineMail size={80}/></a></div>
+            <div className=""><a href="https://www.linkedin.com/in/ronald-beck-03104a213/" target="_blank"><AiFillLinkedin size={80}/></a></div>
           </div> 
-            {/* <p className="text-md py-5 leading-8 text-gray-600">A passionate and highly motivated aspiring software Developer
-              looking for a software development apprenticeship.
-            </p> */}
-          </div>
-          {/* <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600"> */}
-            {/* Icons for social media links */}
-          {/* </div> */}
-          {/* <div className="relative mx-auto bg-gradient-to-b from-teel-500 rounded-full w-80 h-80 mt-20 overflow-hidden">  */}
-          {/* image from linkedin pfp Image src={deved} layout="fill" objectFit="cover"*/}
-          {/* </div> */}
         </section>
-{/* 
-        <section>
-          <div>
-            <h3 className="text-3xl py-1">Experience:</h3>
-            <p className="text-md py-2 leading-8 text-gray-800">
-              My most recent experience was an 8-week traineeship in software development
-              where I did...
-            </p>
-          </div>
-        </section> */}
       </main>
       </div>
     </>
