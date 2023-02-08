@@ -5,10 +5,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontSize: {
-      '9xl' : '10rem',
-    },
+    extend: {
+      fontSize: {
+        '9xl' : '7rem',
+        '10xl' : '10rem'
+      },
   },
   plugins: [],
 }
- 
+}
