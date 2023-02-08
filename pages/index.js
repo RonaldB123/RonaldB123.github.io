@@ -12,14 +12,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-white ">
-        <section className="sm:max-w-2xl mx-auto my-10">
+        <section className="sm:max-w-2xl mx-auto my-28">
           <div className="border-2 border-black ">
-          <h2 className="text-9xl sm:text-9xl ">Ronald Beck</h2>
-          <div className="inline-flex justify-start ">
-          <p className="text-gray-700 ">Aspiring Software Developer</p>
-          <a className="" href="mailto:ronaldbeck@hotmail.co.uk"><AiOutlineMail size={50}/></a>
-          <a className="" href="https://www.linkedin.com/in/ronald-beck-03104a213/" target="_blank"><AiFillLinkedin size={50}/></a>
-          </div>
+            <div className="flex items-center">
+              <h2 className="text-9xl sm:text-8xl mb-5">Ronald Beck</h2>
+              <a className="ml-auto" href="mailto:ronaldbeck@hotmail.co.uk"><AiOutlineMail size={50}/></a>
+              <a className="" href="https://www.linkedin.com/in/ronald-beck-03104a213/" target="_blank"><AiFillLinkedin size={50}/></a>
+            </div>
+            <div className="flex justify-between">
+              <p className="text-gray-700 text-lg px-3">Aspiring Software Developer</p>
+              <p className="text-gray-700 text-lg px-3">Based in London </p>
+            </div>
           </div>
         </section>
       </main>
