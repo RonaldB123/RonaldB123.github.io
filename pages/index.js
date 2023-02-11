@@ -12,24 +12,25 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-white ">
-        <div>
-        </div>
-        <section className="sm:w-11/12 mx-auto mt-28 mb-10 md:w-11/12">
-              <h2 className="text-9xl sm:text-9xl mb-5 py-5">Ronald Beck</h2>
+        <section className="w-11/12 mx-auto mt-20 mb-10 ">
+              <h2 className="text-8xl sm:text-9xl md:text-10xl mb-5 py-5">Ronald Beck</h2>
             <div className="flex justify-between">
-              <p className="text-gray-700 text-xl">Aspiring Software Developer</p>
-              <p className="text-gray-700 text-xl">Based in London <br></br><span className="ml-5">GMT 00:00</span></p>
+              <h3 className="text-gray-700 text-xl">Aspiring Software Developer</h3>
+              <h3 className="text-gray-700 text-xl">Based in London <br></br><span className="ml-5">GMT 00:00</span></h3>
             </div>
         </section>
         <div className="mx-auto w-11/12">
         <hr className="w-full mx-auto border-black border-2 mt-11 "></hr>
-        <div className="flex">
-            <a className="ml-auto" href="mailto:ronaldbeck@hotmail.co.uk"><AiOutlineMail size={50}/></a>
-            <a className="" href="https://www.linkedin.com/in/ronald-beck-03104a213/" target="_blank"><AiFillLinkedin size={50}/></a>
+        <div className="flex h-1">
+            <a className="ml-auto hover:mt-1 " href="mailto:ronaldbeck@hotmail.co.uk"><AiOutlineMail size={50}/></a>
+            <a className="hover:mt-1 " href="https://www.linkedin.com/in/ronald-beck-03104a213/" target="_blank"><AiFillLinkedin size={50}/></a>
         </div>
         </div>
 
-        <section className="">
+        <section className="w-11/12 mx-auto mt-5 h-screen">
+          <h3 className="text-4xl text-center mt-10 mb-5">Get to know me...</h3>
+          <h4 className="text-2xl text-left">About me</h4>
+          <p className="border-2">random paragraph stuff</p>
 
 
         </section>
