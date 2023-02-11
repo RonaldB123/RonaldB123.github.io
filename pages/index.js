@@ -12,18 +12,26 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-white ">
-        <section className="sm:max-w-2xl mx-auto my-28">
-          <div className="border-2 border-black ">
-            <div className="flex items-center">
-              <h2 className="text-9xl sm:text-8xl mb-5">Ronald Beck</h2>
-              <a className="ml-auto" href="mailto:ronaldbeck@hotmail.co.uk"><AiOutlineMail size={50}/></a>
-              <a className="" href="https://www.linkedin.com/in/ronald-beck-03104a213/" target="_blank"><AiFillLinkedin size={50}/></a>
-            </div>
+        <div>
+        </div>
+        <section className="sm:w-11/12 mx-auto mt-28 mb-10 md:w-11/12">
+              <h2 className="text-9xl sm:text-9xl mb-5 py-5">Ronald Beck</h2>
             <div className="flex justify-between">
-              <p className="text-gray-700 text-lg px-3">Aspiring Software Developer</p>
-              <p className="text-gray-700 text-lg px-3">Based in London </p>
+              <p className="text-gray-700 text-xl">Aspiring Software Developer</p>
+              <p className="text-gray-700 text-xl">Based in London <br></br><span className="ml-5">GMT 00:00</span></p>
             </div>
-          </div>
+        </section>
+        <div className="mx-auto w-11/12">
+        <hr className="w-full mx-auto border-black border-2 mt-11 "></hr>
+        <div className="flex">
+            <a className="ml-auto" href="mailto:ronaldbeck@hotmail.co.uk"><AiOutlineMail size={50}/></a>
+            <a className="" href="https://www.linkedin.com/in/ronald-beck-03104a213/" target="_blank"><AiFillLinkedin size={50}/></a>
+        </div>
+        </div>
+
+        <section className="">
+
+
         </section>
       </main>
       </div>
