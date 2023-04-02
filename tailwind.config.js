@@ -6,11 +6,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily:{
-        burtons: "burtons",
-      }
-    },
+      fontSize: {
+        '9xl' : '7rem',
+        '10xl' : '10rem'
+      },
   },
   plugins: [],
 }
- 
+}

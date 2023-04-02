@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import { MdOutlineEmail } from 'react-icons/fa';
-
+import { AiOutlineMail, AiFillLinkedin } from 'react-icons/ai';
 
 export default function Home() {
   return (
@@ -12,33 +11,29 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white px-10 ">
-        <section className="min-h-screen">
-          <div className="text-left ">
-            <h2 className="text-9xl pt-32 ">Ronald Beck</h2>
-            <p><MdOutlineEmail /></p>
-            <h3 className="text-2xl pt-10 pl-6 text-gray-600">Aspiring Software Developer</h3>
-            {/* <p className="text-md py-5 leading-8 text-gray-600">A passionate and highly motivated aspiring software Developer
-              looking for a software development apprenticeship.
-            </p> */}
-          </div>
-          {/* <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600"> */}
-            {/* Icons for social media links */}
-          {/* </div> */}
-          {/* <div className="relative mx-auto bg-gradient-to-b from-teel-500 rounded-full w-80 h-80 mt-20 overflow-hidden">  */}
-          {/* image from linkedin pfp Image src={deved} layout="fill" objectFit="cover"*/}
-          {/* </div> */}
+      <main className="bg-white ">
+        <section className="w-11/12 mx-auto mt-20 mb-10 ">
+              <h2 className="text-8xl sm:text-9xl md:text-10xl mb-5 py-5">Ronald Beck</h2>
+            <div className="flex justify-between">
+              <h3 className="text-gray-700 text-xl">Aspiring Software Developer</h3>
+              <h3 className="text-gray-700 text-xl">Based in London <br></br><span className="ml-5">GMT 00:00</span></h3>
+            </div>
         </section>
-{/* 
-        <section>
-          <div>
-            <h3 className="text-3xl py-1">Experience:</h3>
-            <p className="text-md py-2 leading-8 text-gray-800">
-              My most recent experience was an 8-week traineeship in software development
-              where I did...
-            </p>
-          </div>
-        </section> */}
+        <div className="mx-auto w-11/12">
+        <hr className="w-full mx-auto border-black border-2 mt-11 "></hr>
+        <div className="flex h-1">
+            <a className="ml-auto hover:mt-1 " href="mailto:ronaldbeck@hotmail.co.uk"><AiOutlineMail size={50}/></a>
+            <a className="hover:mt-1 " href="https://www.linkedin.com/in/ronald-beck-03104a213/" target="_blank"><AiFillLinkedin size={50}/></a>
+        </div>
+        </div>
+
+        <section className="w-11/12 mx-auto mt-5 h-screen">
+          <h3 className="text-4xl text-center mt-10 mb-5">Get to know me...</h3>
+          <h4 className="text-2xl text-left">About me</h4>
+          <p className="border-2">random paragraph stuff</p>
+
+
+        </section>
       </main>
       </div>
     </>
