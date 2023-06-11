@@ -21,7 +21,7 @@ export default function Home() {
         </section>
         <div className="mx-auto w-11/12">
         <hr className="w-full mx-auto border-black border-2 mt-11 "></hr>
-        <div className="flex h-1">
+        <div className="flex h-1 mb-20">
             <a className="ml-auto hover:mt-1 " href="mailto:ronaldbeck@hotmail.co.uk"><AiOutlineMail size={50}/></a>
             <a className="hover:mt-1 " href="https://www.linkedin.com/in/ronald-beck-03104a213/" target="_blank"><AiFillLinkedin size={50}/></a>
         </div>
@@ -30,9 +30,12 @@ export default function Home() {
         <section className="w-11/12 mx-auto mt-5 h-screen">
           <h3 className="text-4xl text-center mt-10 mb-5">Get to know me...</h3>
           <h4 className="text-2xl text-left">About me</h4>
-          <p className="border-2">random paragraph stuff</p>
-
-
+          <div className="flex flex-row">
+            <p className="border-2 rounded-2xl p-2 w-3/5 border-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend elit quam, ac ultricies tortor maximus nec. Sed ac mauris elit. Nunc laoreet tincidunt felis, sit amet sagittis massa malesuada non. Nullam iaculis non augue quis accumsan. Maecenas a enim lacinia tellus imperdiet vulputate sed a erat. Aenean vel magna ipsum. Cras suscipit massa eu nisi iaculis mollis. Mauris et mi ac dolor fermentum volutpat. Vestibulum eu dolor tristique lorem pellentesque sodales. Ut commodo ipsum ut dui molestie vulputate. Fusce ante massa, fermentum in nibh a, egestas condimentum justo. Donec tempor massa non nisl fermentum, sed gravida lacus tristique. Etiam volutpat purus neque, in consequat odio auctor eu. Proin in dui eu dolor egestas cursus. Curabitur sed urna auctor, ultricies diam non, tincidunt mi. Nunc cursus elit quis nibh aliquet pulvinar.</p>
+            <img src="" className="w-80 ml-4 border-2 rounded-full border-black"/> 
+            {/*  ^^^ Cannot figure out how to get image displayed and not little icon */}
+          </div>
+          <hr className="w-full mx-auto border-stone-400 border-1 mt-11 "></hr>
         </section>
       </main>
       </div>
