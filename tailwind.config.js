@@ -10,6 +10,9 @@ module.exports = {
         '9xl' : '7rem',
         '10xl' : '10rem'
       },
+      fontFamily: {
+        'merriweather' : ['Merriweather']
+      },
   },
   plugins: [],
 }
