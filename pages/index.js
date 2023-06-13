@@ -12,60 +12,114 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white ">
-        <section className="w-11/12 mx-auto mt-20 mb-10">
-              <h2 className="text-8xl sm:text-9xl md:text-10xl mb-5 py-5">Ronald Beck</h2>
+      <main className="bg-white">
+        
+
+        <section className="w-11/12 mx-auto mb-20 mt-32 md:mt-20 lg:mt-44 lg:mb-28">
+              <h2 className="text-8xl md:text-10xl mb-1 py-5 mt-20 lg:mb-2 sm:text-8xl">Ronald Beck</h2>
             <div className="flex justify-between">
               <h3 className="text-gray-700 text-xl">Aspiring Software Developer</h3>
               <h3 className="text-gray-700 text-xl">Based in London <br></br><span className="ml-5">GMT 00:00</span></h3>
             </div>
-        </section>
-        <div className="mx-auto w-11/12">
-        <hr className="w-full mx-auto border-black border-2 mt-11 "></hr>
-        <div className="flex h-1 mb-20">
+        <hr className="w-full mx-auto border-black border-2 mt-2 lg:mt-8 sm:mt-8"></hr>
+        <div className="flex h-1">
         <a className="ml-auto hover:mt-1 " href="mailto:ronaldbeck@hotmail.co.uk"><AiOutlineMail size={50}/></a>
-            <a className="hover:mt-1 " href="https://www.linkedin.com/in/ronald-beck-03104a213/" target="_blank"><AiFillLinkedin size={50}/></a>
+        <a className="hover:mt-1 " href="https://www.linkedin.com/in/ronald-beck-03104a213/" target="_blank"><AiFillLinkedin size={50}/></a>
         </div>
-        </div>
+        </section>
 
         <section className="w-11/12 mx-auto mt-5">
-          <h3 className="text-4xl text-center mt-10 mb-5">Get to know me...</h3>
-          <h4 className="text-2xl text-left">About me</h4>
-          <div className="flex flex-row">
-            <p className="border-2 rounded-2xl p-2 w-3/5 border-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend elit quam, ac ultricies tortor maximus nec. Sed ac mauris elit. Nunc laoreet tincidunt felis, sit amet sagittis massa malesuada non. Nullam iaculis non augue quis accumsan. Maecenas a enim lacinia tellus imperdiet vulputate sed a erat. Aenean vel magna ipsum. Cras suscipit massa eu nisi iaculis mollis. Mauris et mi ac dolor fermentum volutpat. Vestibulum eu dolor tristique lorem pellentesque sodales. Ut commodo ipsum ut dui molestie vulputate. Fusce ante massa, fermentum in nibh a, egestas condimentum justo. Donec tempor massa non nisl fermentum, sed gravida lacus tristique. Etiam volutpat purus neque, in consequat odio auctor eu. Proin in dui eu dolor egestas cursus. Curabitur sed urna auctor, ultricies diam non, tincidunt mi. Nunc cursus elit quis nibh aliquet pulvinar.</p>
-            <img src="" className="w-80 ml-4 border-2 rounded-full border-black"/> 
-            {/*  ^^^ Cannot figure out how to get image displayed and not little icon */}
+          <h3 className="text-4xl text-center mt-10 mb-5">Get to know me</h3>
+          <div className="flex flex-row">            
+            <p className="border-2 rounded-2xl p-5 w-1/2 border-black ml-auto">Good day, everyone! My name is Ronald, I am a hard-working 20-year-old from South East London with a strong work ethic and a desire to learn and develop my skills and knowledge in software development. As technology and programming is a passion of mine, I find it extremely enjoyable and exciting which fuels my self motivation to always improve and learn.<br></br><br></br> I am currently looking for a software development opportunity (apprenticeship or trainee role) to bring my contagious positive energy, desire to learn and improve from everyone, and produce quality work.</p>
+            <img src="https://i.ibb.co/61hpy4S/Picture-Of-Me.png" className="w-80 ml-4 border-2 rounded-full border-black mr-auto drop-shadow-2xl"/> 
           </div>
           <hr className="w-full mx-auto border-stone-400 border-1 mt-11 mb-10"></hr>
         </section>
 
         <section className="w-11/12 mx-auto mt-5">
-        <h3 className="text-4xl text-center mb-5">My work experience so far...</h3>
-          <h4 className="text-2xl text-left">Work Experience</h4>
-          <div className="flex flex-row">
-            <p className="border-2 rounded-2xl p-2 w-3/5 border-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend elit quam, ac ultricies tortor maximus nec. Sed ac mauris elit. Nunc laoreet tincidunt felis, sit amet sagittis massa malesuada non. Nullam iaculis non augue quis accumsan. Maecenas a enim lacinia tellus imperdiet vulputate sed a erat. Aenean vel magna ipsum. Cras suscipit massa eu nisi iaculis mollis. Mauris et mi ac dolor fermentum volutpat. Vestibulum eu dolor tristique lorem pellentesque sodales. Ut commodo ipsum ut dui molestie vulputate. Fusce ante massa, fermentum in nibh a, egestas condimentum justo. Donec tempor massa non nisl fermentum, sed gravida lacus tristique. Etiam volutpat purus neque, in consequat odio auctor eu. Proin in dui eu dolor egestas cursus. Curabitur sed urna auctor, ultricies diam non, tincidunt mi. Nunc cursus elit quis nibh aliquet pulvinar.</p>
-            <img src="" className="w-80 ml-4 border-2 rounded-2xl border-black"/> 
-            {/*  ^^^ Cannot figure out how to get image displayed and not little icon */}
+        <h3 className="text-4xl text-center mb-5">My work experience</h3>
+          <div className="flex">
+            <div className="border-2 rounded-2xl p-2 w-2/4 border-black mr-5">
+              <p className="text-xl">Software Developer Trainee <span className="text-sm">- VMA Digital</span></p>
+              <p>10/2022 - 11/2022</p>
+              <hr className="my-2"></hr>
+              <p className="text-lg">Responsibilities:</p>
+              <li>Problem solving website issues or errors in React.js, Next,js, Typescript</li>
+              <li>Making chanes to website using Tailwind CSS or DaisyUI</li>
+              <li>Using git to add branches and commits to the project repository</li>
+              <li>Responding to tickets assigned to me via Github or Jira Software</li>
+              <li>Making pull requests on Github of my coding solutions to tickets</li>
+              <p className="text-lg">Achievements:</p>
+              <li>Learned about the different technologies, languages, and frameworks that build up a website</li>
+              <li>Gained an insight into the daily tasks and activities of a software developer</li>
+              <li>Developed problem-solving skills</li>
+              <li>Developed collaborative teamwork skills</li>
+              <li>Successfully can use git within a project</li>
+              <li>Developed verbal and written communication using Slack and Github</li>
+              <li>Gained experience with: React.js, Next.js, Node.js, TypeScript, Tailwind CSS, DaisyUI, git, Github, GitPod, Gatsby.js, Configuring Visual Studio Code, Configuring Android Studio, using FireBase</li>
+            </div>
+            <div className="border-2 rounded-2xl p-2 w-2/4 border-black ml-auto">
+            <p className="text-xl">Cyber security traineeship <span className="text-sm">- Vasave Business Solutions </span></p>
+            <p>08/2022 - 09/2022</p>
+            <hr className="my-2"></hr>
+            <p className="text-lg">Responsibilities:</p>
+            <li>Creating and editing policies</li>
+            <li>Editing audits</li>
+            <li>Reviewing company procedures</li>
+            <li>Reviewing company forms</li>
+            <p className="text-lg">Achievements</p>
+            <li>Build upon cyber security knowledge of audits, policies, procedures, and forms</li>
+            <li>Improved confidence, especially in tough situations</li>
+            <li>Improved oral and written communicative skills</li>
+            <li>Gained office experience</li>
+            <li>Worked in many different working dynamics with other colleagues/trainees</li>
+            </div>
           </div>
           <hr className="w-full mx-auto border-stone-400 border-1 mt-11 mb-10 snap-center"></hr>
         </section>
 
         <section className="w-11/12 mx-auto mt-5">
-        <h3 className="text-4xl text-center mb-5">My education...</h3>
-          <h4 className="text-2xl text-left">Education</h4>
+        <h3 className="text-4xl text-center mb-5">My education</h3>
           <div className="flex flex-row">
-            <p className="border-2 rounded-2xl p-2 w-1/2 border-black mr-4"><span className="text-2xl">School</span><br></br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend elit quam, ac ultricies tortor maximus nec. Sed ac mauris elit. Nunc laoreet tincidunt felis, sit amet sagittis massa malesuada non. Nullam iaculis non augue quis accumsan. Maecenas a enim lacinia tellus imperdiet vulputate sed a erat. Aenean vel magna ipsum. Cras suscipit massa eu nisi iaculis mollis. Mauris et mi ac dolor fermentum volutpat.</p>
-            <p className="border-2 rounded-2xl p-2 w-1/2 border-black"><span className="text-2xl">School</span><br></br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend elit quam, ac ultricies tortor maximus nec. Sed ac mauris elit. Nunc laoreet tincidunt felis, sit amet sagittis massa malesuada non. Nullam iaculis non augue quis accumsan. Maecenas a enim lacinia tellus imperdiet vulputate sed a erat. Aenean vel magna ipsum. Cras suscipit massa eu nisi iaculis mollis. Mauris et mi ac dolor fermentum volutpat.</p>
+            <div className="border-2 rounded-2xl p-2 w-1/2 border-black mr-4">
+              <p className="text-xl">Software Development Traineeship <span className="text-sm">- London Vesta College</span></p>
+              <p>08/2022 - 09/2022</p>
+              <hr className="my-2"></hr>
+              <li>Exciting daily lessons based on different syntax, concepts, and different programming tasks and projects</li>
+              <li>Studied the fundamentals of one object-orientated language, Java. As well as HTML, CSS, vanillia JavaScript, and software testing theory.</li>
+            </div>
+            <div className="border-2 rounded-2xl p-2 w-1/2 border-black mr-4">
+              <p className="text-xl">Cyber security traineeship <span className="text-sm">- London Learning Consortium</span></p>
+              <p>09/2021 - 01/2022</p>
+              <hr className="my-2"></hr>
+              <li>Studied about customer serivice and employability skills</li>
+              <li>Achieved City & Guilds Level 1 Introduction to Customer Service</li>
+              <li>Highfield Level 1 Certificate in Personal Development and Employment</li>
+            </div>
           </div>
-          <div className="flex flex-row mt-4">
-            <p className="border-2 rounded-2xl p-2 w-1/2 border-black mr-4"><span className="text-2xl">School</span><br></br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend elit quam, ac ultricies tortor maximus nec. Sed ac mauris elit. Nunc laoreet tincidunt felis, sit amet sagittis massa malesuada non. Nullam iaculis non augue quis accumsan. Maecenas a enim lacinia tellus imperdiet vulputate sed a erat. Aenean vel magna ipsum. Cras suscipit massa eu nisi iaculis mollis. Mauris et mi ac dolor fermentum volutpat.</p>
-            <p className="border-2 rounded-2xl p-2 w-1/2 border-black "><span className="text-2xl">School</span><br></br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend elit quam, ac ultricies tortor maximus nec. Sed ac mauris elit. Nunc laoreet tincidunt felis, sit amet sagittis massa malesuada non. Nullam iaculis non augue quis accumsan. Maecenas a enim lacinia tellus imperdiet vulputate sed a erat. Aenean vel magna ipsum. Cras suscipit massa eu nisi iaculis mollis. Mauris et mi ac dolor fermentum volutpat.</p>  
+          <div className="flex flex-row mt-5">
+            <div className="border-2 rounded-2xl p-2 w-1/2 border-black mr-4">
+              <p className="text-xl"> Sixth Form <span className="text-sm">- Harris Academy Beckenham</span></p>
+              <p>09/2019 - 08/2021</p>
+              <hr className="my-2"></hr>
+              <li>Achieved grade DD in OCR Cambridge Technical Diploma in ICT</li>
+              <li>The ICT course was very broad, having many different ICT topics, such as: product development, cloud technology, computer networks, and much more.</li>
+              <li>Achieved grade C in A-Level History</li>
+            </div>
+            <div className="border-2 rounded-2xl p-2 w-1/2 border-black mr-4">
+              <p className="text-xl">Secondary School <span className="text-sm">- Harris Academy Beckenham</span></p>
+              <p>09/2015 - 09/2019</p>
+              <hr className="my-2"></hr>
+              <li>9 GCSE’s including English, Maths and Double Science</li>
+              <li>Also including Grade 6 Computer science and Grade 5 Maths</li>
+            </div>
           </div>
           <hr className="w-full mx-auto border-stone-400 border-1 mt-11 mb-10"></hr>
         </section>
 
         <section className="w-11/12 mx-auto mt-5">
-        <h3 className="text-4xl text-center mb-5">My top skills...</h3>
+        <h3 className="text-4xl text-center mb-5">My top skills</h3>
           <div className="flex flex-row mx-auto mt-10">
             <p className="border-2 rounded-2xl p-2 w-1/4 border-black mx-auto"><span className="text-2xl">Skill</span><br></br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend elit quam, ac ultricies tortor maximus nec. Sed ac mauris elit. Nunc laoreet tincidunt felis, sit amet sagittis massa malesuada non. Nullam iaculis non augue quis accumsan. Maecenas a enim lacinia tellus imperdiet vulputate sed a erat. Aenean vel magna ipsum. Cras suscipit massa eu nisi iaculis mollis. Mauris et mi ac dolor fermentum volutpat.</p>
             <p className="border-2 rounded-2xl p-2 w-1/4 border-black"><span className="text-2xl">Skill</span><br></br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend elit quam, ac ultricies tortor maximus nec. Sed ac mauris elit. Nunc laoreet tincidunt felis, sit amet sagittis massa malesuada non. Nullam iaculis non augue quis accumsan. Maecenas a enim lacinia tellus imperdiet vulputate sed a erat. Aenean vel magna ipsum. Cras suscipit massa eu nisi iaculis mollis. Mauris et mi ac dolor fermentum volutpat.</p>
