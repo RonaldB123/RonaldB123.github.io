@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import { AiOutlineMail, AiFillLinkedin } from 'react-icons/ai';
-import { HiOutlineClipboard} from 'react-icons/hi';
 
 export default function Home() {
   return (
@@ -121,9 +120,21 @@ export default function Home() {
         <section className="w-11/12 mx-auto mt-5">
         <h3 className="text-4xl text-center mb-5">My top skills</h3>
           <div className="flex flex-row mx-auto mt-10">
-            <p className="border-2 rounded-2xl p-2 w-1/4 border-black mx-auto"><span className="text-2xl">Skill</span><br></br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend elit quam, ac ultricies tortor maximus nec. Sed ac mauris elit. Nunc laoreet tincidunt felis, sit amet sagittis massa malesuada non. Nullam iaculis non augue quis accumsan. Maecenas a enim lacinia tellus imperdiet vulputate sed a erat. Aenean vel magna ipsum. Cras suscipit massa eu nisi iaculis mollis. Mauris et mi ac dolor fermentum volutpat.</p>
-            <p className="border-2 rounded-2xl p-2 w-1/4 border-black"><span className="text-2xl">Skill</span><br></br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend elit quam, ac ultricies tortor maximus nec. Sed ac mauris elit. Nunc laoreet tincidunt felis, sit amet sagittis massa malesuada non. Nullam iaculis non augue quis accumsan. Maecenas a enim lacinia tellus imperdiet vulputate sed a erat. Aenean vel magna ipsum. Cras suscipit massa eu nisi iaculis mollis. Mauris et mi ac dolor fermentum volutpat.</p>
-            <p className="border-2 rounded-2xl p-2 w-1/4 border-black mx-auto"><span className="text-2xl">Skill</span><br></br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend elit quam, ac ultricies tortor maximus nec. Sed ac mauris elit. Nunc laoreet tincidunt felis, sit amet sagittis massa malesuada non. Nullam iaculis non augue quis accumsan. Maecenas a enim lacinia tellus imperdiet vulputate sed a erat. Aenean vel magna ipsum. Cras suscipit massa eu nisi iaculis mollis. Mauris et mi ac dolor fermentum volutpat.</p>
+            <div className="border-2 rounded-2xl p-2 w-1/4 border-black mx-auto">
+            <p className="text-xl">Quick Learner</p>
+            <hr className="my-2"></hr>
+            <p>By being a quick learner it enables me to understand new information at a rapid pace therefore giving me the capability to learn and develop skills and build upon knowledge quickly. Within software development, this allows me to absorb concepts or instructions faster and identifying the most suitable solutions to problems in a short span of time. </p>
+            </div>
+            <div className="border-2 rounded-2xl p-2 w-1/4 border-black mx-auto">
+            <p className="text-xl">Communication</p>
+            <hr className="my-2"></hr>
+            <p>Whether it is oral or written communication on any platform or environment, I maintain a level of effective communication that builds trust amongst the organization and helps a drive for better results for individuals, teams, and organizations. This skill is essential in software development as it allows me to receive the correct information as well as produce it in order to maintain productivity and to stay within time frames. </p>
+            </div>
+            <div className="border-2 rounded-2xl p-2 w-1/4 border-black mx-auto">
+            <p className="text-xl">Dedication</p>
+            <hr className="my-2"></hr>
+            <p>My unwavering dedication that is a product of my passion for software development and technology will give me the commitment towards my work ethic to always want to be an outstanding employee and achieve my short/long term goals through my desire to learn and improve myself.</p>
+            </div>
           </div>
           <hr className="w-full mx-auto border-white border-1 mt-11"></hr>
         </section>
@@ -134,7 +145,7 @@ export default function Home() {
             <h4 className="text-left text-2xl text-white pt-5"> Feel free to contact me!</h4>
             <div className="flex flex-row">
               <div className="border-2 border-white w-fit mt-5">
-                <a className=" text-white"><HiOutlineClipboard size={50}/></a>
+                <a className=" text-white" href="mailto:ronaldbeck@hotmail.co.uk"><AiOutlineMail size={50}/></a>
               </div>
               <div className="border-2 border-white w-fit mt-5">
                 <p className="text-4xl text-white m-1">Ronaldbeck@hotmail.co.uk</p>
