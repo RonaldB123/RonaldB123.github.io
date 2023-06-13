@@ -1,7 +1,19 @@
 import Head from 'next/head'
 import { AiOutlineMail, AiFillLinkedin } from 'react-icons/ai';
+import {useState, useEffect}from 'react'
 
 export default function Home() {
+
+  let [date, setDate] = useState(new Date());
+
+  useEffect(() =>{
+    let timer = setInterval(() => setDate(new Date()), 1000)
+    return function cleanup() {
+      clearInterval(timer);
+    }
+  });
+
+  
   return (
     <>
     <div>
@@ -18,7 +30,7 @@ export default function Home() {
               <h2 className="text-8xl md:text-10xl mb-1 py-5 mt-20 lg:mb-2 sm:text-8xl">Ronald Beck</h2>
             <div className="flex justify-between">
               <h3 className="text-gray-700 text-xl">Aspiring Software Developer</h3>
-              <h3 className="text-gray-700 text-xl">Based in London <br></br><span className="ml-5">GMT 00:00</span></h3>
+              <h3 className="text-gray-700 text-xl">Based in London <br></br><span className="ml-5">GMT {date.toLocaleTimeString('en-GB')}</span></h3>
             </div>
         <hr className="w-full mx-auto border-black border-2 mt-2 lg:mt-8 sm:mt-8"></hr>
         <div className="flex h-1">
