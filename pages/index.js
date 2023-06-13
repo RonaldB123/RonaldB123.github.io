@@ -11,8 +11,15 @@ export default function Home() {
     return function cleanup() {
       clearInterval(timer);
     }
-  });
+  }, []);
 
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+
+  }
   
   return (
     <>
@@ -23,7 +30,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white">
+      <main className="bg-white overflow-hidden">
         
 
         <section className="w-11/12 mx-auto mb-20 mt-32 md:mt-20 lg:mt-44 lg:mb-28">
@@ -151,7 +158,7 @@ export default function Home() {
           <hr className="w-full mx-auto border-white border-1 mt-11"></hr>
         </section>
         <h3 className="text-3xl text-center mb-5">Thanks for coming this far!</h3>
-        <div className="w-full bg-black h-auto">
+        <div className=" bg-black h-auto w-auto pb-5">
           <section className="w-11/12 mx-auto h-auto">
             <h3 className="text-center text-4xl text-white pt-5"> Contact me!</h3>
             <h4 className="text-left text-2xl text-white pt-5"> Feel free to contact me!</h4>
@@ -173,7 +180,9 @@ export default function Home() {
             </div>
             <hr className="w-full mx-auto border-white border-1 mt-11"></hr>
             <h1 className="text-8xl text-white mt-5 text-center"> Have a wonderful day!</h1>
-            <h3 className="text-white text-2xl text-center mt-5 pb-5">Click here to go back to top</h3>
+            <div className="mt-5 border-2 w-fit h-fit mx-auto p-2">
+              <p className="text-white text-2xl" onClick={scrollUp}>Click here to go back to top</p>
+            </div>
           </section>
         </div>
       </main>
