@@ -49,7 +49,7 @@ export default function Home() {
           <h3 className="text-4xl text-center mt-10 mb-5">Get to know me</h3>
           <div className="sm:flex">            
             <p className="border-2 rounded-2xl p-5 sm:w-1/2 border-black sm:ml-auto">Good day, everyone! My name is Ronald, I am a hard-working 20-year-old from South East London with a strong work ethic and a desire to learn and develop my skills and knowledge in software development. As technology and programming is a passion of mine, I find it extremely enjoyable and exciting which fuels my self motivation to always improve and learn.<br></br><br></br> I am currently looking for a software development opportunity (apprenticeship or trainee role) to bring my contagious positive energy, desire to learn and improve from everyone, and produce quality work.</p>
-            <img src="https://i.ibb.co/61hpy4S/Picture-Of-Me.png" className="mx-auto sm:mx-0 mt-5 sm:0 w-80 h-72 md:h-auto sm:ml-4 border-2 rounded-full border-black sm:mr-auto drop-shadow-2xl"/> 
+            <img src="https://i.ibb.co/61hpy4S/Picture-Of-Me.png" alt="picture of Ronald Beck"className="mx-auto sm:mx-0 mt-5 sm:0 w-80 h-72 md:h-auto sm:ml-4 border-2 rounded-full border-black sm:mr-auto drop-shadow-2xl"/> 
           </div>
           <hr className="w-full mx-auto border-stone-400 border-1 mt-11 mb-10"></hr>
         </section>
