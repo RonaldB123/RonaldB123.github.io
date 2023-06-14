@@ -32,7 +32,7 @@ export default function Home() {
       </Head>
       <main className="bg-white overflow-hidden font-merriweather">
         
-        <section className="w-11/12 mx-auto mb-36 mt-56 md:mt-48">
+        <section className="w-11/12 mx-auto mb-36 mt-40 sm:mt-56 md:mt-48">
               <h2 className="text-8xl lg:text-10xl mb-1 py-5 mt-20 md:mb-2 md:text-9xl font-bold">Ronald Beck</h2>
             <div className="flex">
               <h3 className="text-gray-700 text-xl h-fit w-full word-break">Aspiring Software Developer</h3>
