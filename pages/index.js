@@ -32,14 +32,13 @@ export default function Home() {
       </Head>
       <main className="bg-white overflow-hidden font-merriweather">
         
-        <section className="w-11/12 mx-auto mb-20 mt-32 md:mt-20 lg:mt-44 lg:mb-28">
-              <h2 className="text-8xl md:text-10xl mb-1 py-5 mt-20 lg:mb-2 sm:text-8xl font-bold">Ronald Beck</h2>
-            <div className="flex justify-between">
-              <h3 className="text-gray-700 text-xl">Aspiring Software Developer</h3>
-              <h3 className="text-gray-700 text-xl">Based in London</h3>
+        <section className="w-11/12 mx-auto mb-36 mt-56 md:mt-48">
+              <h2 className="text-8xl lg:text-10xl mb-1 py-5 mt-20 md:mb-2 md:text-9xl font-bold">Ronald Beck</h2>
+            <div className="flex">
+              <h3 className="text-gray-700 text-xl h-fit w-full word-break">Aspiring Software Developer</h3>
+              <h3 className="text-gray-700 text-xl h-fit w-full text-right sm:mt-0">Based in London <br></br><span className="mr-2 text-gray-700 text-xl">GMT {date.toLocaleTimeString('en-GB')}</span></h3>
             </div>
-          <h3 className="text-gray-700 text-xl float-right">GMT {date.toLocaleTimeString('en-GB')}</h3>
-          <hr className="w-full mx-auto border-black border-2 mt-2 lg:mt-8 sm:mt-8"></hr>
+          <hr className="w-full mx-auto border-black border-2 mt-4"></hr>
           <div className="flex h-1">
           <a className="ml-auto hover:mt-1 " href="mailto:ronaldbeck@hotmail.co.uk"><AiOutlineMail size={50}/></a>
           <a className="hover:mt-1 " href="https://www.linkedin.com/in/ronald-beck-03104a213/" target="_blank"><AiFillLinkedin size={50}/></a>
@@ -176,13 +175,13 @@ export default function Home() {
                 <a className="text-white" href="https://www.linkedin.com/in/ronald-beck-03104a213/" target="_blank"><AiFillLinkedin size={50}/></a>
               </div>
               <div className="border-2 border-white w-fit mt-5">
-                <p className="text-4xl text-white m-1">LinkedIn</p>
+                <p className="text-2xl sm:text-4xl text-white m-1">LinkedIn</p>
               </div>
             </div>
             <hr className="w-full mx-auto border-white border-1 mt-11"></hr>
             <h1 className="text-7xl sm:text-8xl text-white mt-5 text-center"> Have a wonderful day!</h1>
-            <div className="mt-5 border-2 w-fit h-fit mx-auto">
-              <p className="text-white text-2xl" onClick={scrollUp}>Click here to go back to top</p>
+            <div className="mt-5 border-2 w-fit h-fit mx-auto rounded-md">
+              <button className="text-white text-2xl" onClick={scrollUp}>Click here to go back to top</button>
             </div>
           </section>
 
